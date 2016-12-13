@@ -1,0 +1,114 @@
+@font-face {
+  font-family: 'myraid';
+  src: url('../fonts/MyriadPro-Regular.eot');
+  src: url('../fonts/MyriadPro-Regular.woff2') format('woff2'),
+       url('../fonts/MyriadPro-Regular.woff') format('woff'),
+       url('../fonts/MyriadPro-Regular.ttf') format('truetype'),
+       url('../fonts/MyriadPro-Regular.svg#MyriadPro-Regular') format('svg'),
+       url('../fonts/MyriadPro-Regular.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+.vertical{
+	width: 100vw;
+	height: 1400px	;
+}
+.horizontal{
+	width: 300vw;
+	height: 700px;
+} 	
+.view{
+	width: 100vw;
+	height: 700px;
+}
+#center{
+	width: 100vw;
+	height: 700px;	
+	float: left;
+	background:linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.5)),url("../img/background2.jpg") no-repeat;
+	background-size:100% 700px;
+	position: relative;
+
+}
+
+main{
+	width: 70%;
+	height: 400px;
+	background: rgba(255,255,255,0.1);
+	margin:auto;
+	border: 2px solid #fff;
+	position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+header{
+	border: 2px solid #fff;
+	width: 50%;
+	height: 200px;
+	color: #fff;
+	text-align: center;
+	font-family: 'myraid';
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin:auto;
+}
+.ptext{
+	font-size: 20px;
+}
+header>h1{
+	letter-spacing: 2px;
+	font-size: 42px;
+}
+.nav_v{
+	width: 150px;
+	height: 30px;
+	margin:auto;
+	position: absolute;
+	left: 0;
+	right: 0;
+	background: #fff;
+}
+.nav_h{
+	width: 150px;
+	height: 30px;
+	background: #fff;
+	position: absolute;
+	bottom: 50%;
+}
+#up{
+	top:-15px;
+
+}
+#down{
+	bottom:-15px;
+}
+#left{
+	transform: rotate(90deg);
+	left: -75px;
+
+}
+#right{
+	transform: rotate(-90deg);
+	right: -75px;
+}
+#left_part{
+	width: 100vw;
+	height: 700px;
+	background: #000;
+	float: left;
+}
+#down_part{
+	width: 100vw;
+	height: 700px;
+	background: yellow;
+}
