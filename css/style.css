@@ -39,32 +39,28 @@ html,body{
 	height: 2100px;
 	margin: auto;
 }	
-.view{
-	width:100vw;
-	height: 700px;
-	background: brown;
-}
+
 #center{
 	width: 100vw;
 	height: 700px;	
-	background:linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.5)),url("../img/background2.jpg") no-repeat;
+	background:url("../img/background2.jpg") no-repeat;
 	background-size:100% 700px;
 }
 
-main{
-	width: 70%;
-	height: 400px;
-	background: rgba(255,255,255,0.1);
+#center main{
+	width: 90%;
+	height: 500px;
+	background: rgba(0,0,0,0.5);
 	margin:auto;
-	border: 2px solid #fff;
+	//border: 2px solid #fff;
 	position: absolute;
 	top:0;
 	bottom: 0;
 	left: 0;
 	right: 0;
 }
-header{
-	border: 2px solid #fff;
+#center header{
+	///border: 2px solid #fff;
 	width: 50%;
 	height: 200px;
 	color: #fff;
@@ -77,65 +73,79 @@ header{
 	bottom: 0;
 	margin:auto;
 }
-.ptext{
+#center .ptext{
 	font-size: 20px;
 }
-header>h1{
+#center header>h1{
 	letter-spacing: 2px;
 	font-size: 42px;
 }
-.nav_v{
-	width: 150px;
-	height: 30px;
-	margin:auto;
+.nav_v,.nav_h{
 	position: absolute;
+	width: 220px;
+	height: 50px;
+	//background: green;
+	font-family: 'myraid';
+	color: #fff;
+	font-size: 30px;
+	text-align: center;
+	font-weight: 900;
+	letter-spacing: 2px;
+	line-height: 50px;
+	vertical-align: middle;
+}.nav_v span:hover,.nav_h span:hover{
+	transition: letter-spacing 0.5s ease;
+	letter-spacing: 7px;
+}
+.nav_v{
+	margin:auto;
 	left: 0;
 	right: 0;
-	background: #fff;
 }
 .nav_h{
-	width: 150px;
-	height: 30px;
-	background: #fff;
-	position: absolute;
 	bottom: 50%;
 }
 #up{
-	top:-15px;
+	top:-20px;
 
 }
 #down{
-	bottom:-15px;
+	bottom:-30px;
 }
 #left{
 	transform: rotate(90deg);
-	left: -75px;
+	left: -110px;
 
 }
 #right{
 	transform: rotate(-90deg);
-	right: -75px;
+	right: -110px;
 }
 
-#left_part{
+#left_part,#right_part,#up_part,#down_part{
 	width: 100vw;
 	height: 700px;
+	padding-top: 15px;
+}
+#left_part{
 	float: left;
 	background: #000;
 }
 #right_part{
-	width: 100vw;
-	height: 700px;
 	float: right;
 	background: skyblue;
 }
 #up_part{
-	width: 100vw;
-	height: 700px;
 	background: grey;
 }
+
 #down_part{
-	width: 100vw;
-	height: 700px;
 	background: red;
+}
+#down_part>main,#up_part>main,#left_part>main,#right_part>main{
+	position: relative;
+	width: 99%;
+	height: 600px;
+	margin: auto;
+	//border: 2px solid white;
 }
