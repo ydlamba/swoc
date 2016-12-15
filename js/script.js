@@ -28,7 +28,8 @@ $(document).ready(function(){
 	var $horizontal = $(".horizontal");
 	var $vertical = $(".vertical");
 	var $center = $("#center");
-	var $c_main = $("#center>main")
+	var $c_main = $("#center>main");
+	var $c_header = $("#center header");
 	var $nav_r = $(".nav_r");
 	var $nav_l = $(".nav_l");
 	var $nav_u = $(".nav_u");
@@ -37,7 +38,7 @@ $(document).ready(function(){
 
 
 
-setTimeout(function(){
+/*setTimeout(function(){
 	$center.css("background-image","url(./img/background3.jpg)");
 	setTimeout(function(){
 		$c_main.css("transform","scale(100)");
@@ -46,7 +47,18 @@ setTimeout(function(){
 	},1500);
 },2000);
 
-
+*/
+setTimeout(function(){
+	$c_main.css("transform","scale(50) rotate(15deg)");
+	$c_main.show(500);
+	$c_main.css("transform","scale(1) rotate(15deg)");
+	setTimeout(function(){
+		$c_main.css("transform","scale(1)");
+		setTimeout(function(){
+			$c_header.fadeIn(500);
+		},2000)
+	},2000)
+},2000);
 
 
 
