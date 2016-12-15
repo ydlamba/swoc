@@ -4,8 +4,14 @@ $(document).ready(function(){
 
 $(".nav_r").click(function(){
 
-	$(".horizontal").animate({"margin-left":"-100vw"},slideSpeed);	
+	$(".horizontal").animate({"margin-left":"-100vw"},slideSpeed);
+    $(".vertical").animate({"margin-right":"200vw"},slideSpeed);
 
+});
+$(".nav_l").click(function(){
+
+	$(".horizontal").animate({"margin-left":"100vw"},slideSpeed);
+    $(".vertical").animate({"margin-left":"200vw"},slideSpeed);
 
 });
 
@@ -13,14 +19,18 @@ $(".nav_r").click(function(){
 
 $(".nav_d").click(function(){
 
-	$(".horizontal").animate({"margin-left":"-100vw"},slideSpeed);	
-
+	$(".vertical").animate({"margin-top":"-700px"},slideSpeed);	
 
 });
 
 
 
 
+$(".nav_u").click(function(){
+
+	$(".vertical").animate({"margin-top":"700px"},slideSpeed);	
+
+});
 
 
 
