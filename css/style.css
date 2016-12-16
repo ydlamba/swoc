@@ -15,7 +15,7 @@
 	padding: 0;
 }
 html,body{
-	overflow: hidden;
+	 overflow: hidden;
 }
 .big_box{
 	position: relative;
@@ -126,10 +126,14 @@ html,body{
 	right: -110px;
 }
 
-#left_part,#right_part,#up_part,#down_part{
+#left_part,#right_part,#up_part,#down_part,#behind_center{
 	width: 100vw;
 	height: 700px;
 	padding-top: 15px;
+}
+#behind_center{
+	float: left;
+	background: brown;
 }
 #left_part{
 	float: left;

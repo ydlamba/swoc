@@ -69,7 +69,7 @@ function goRight(){
 
 	if(position === 5){
 		$horizontal.animate({"margin-left":"-100vw"},slideSpeed);
-	    $vertical.animate({"margin-right":"200vw"},slideSpeed);
+	    $vertical.animate({"margin-left":"0"},slideSpeed);
 	    position = 6;	
 	}else{
 		backToHome();
@@ -140,7 +140,7 @@ function backToHome(){
     	position = 5;
 	}else{
 		$horizontal.animate({"margin-left":"0"},slideSpeed);
-	    $vertical.animate({"margin-right":"100vw"},slideSpeed);
+	    $vertical.animate({"margin-left":"100vw"},slideSpeed);
 	    position = 5;		
 	}
 
