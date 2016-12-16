@@ -99,7 +99,7 @@ function goLeft(){
 function goDown(){
 
 	if(position === 5){
-		$vertical.animate({"margin-top":"-700px"},slideSpeed);	
+		$vertical.animate({"margin-top":"-100vh"},slideSpeed);	
 		position = 2;	
 	}else{
 		backToHome();
@@ -116,7 +116,7 @@ function goDown(){
 function goUp(){
 
 	if(position === 5){
-		$vertical.animate({"margin-top":"700px"},slideSpeed);
+		$vertical.animate({"margin-top":"100vh"},slideSpeed);
 		position = 8;	
 	}else{
 		backToHome();
