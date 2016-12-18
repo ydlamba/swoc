@@ -88,7 +88,7 @@ html,body{
 	position: absolute;
 	width: 16.85vw;
 	height: 7.37vh;
-	//background: green;
+	background: green;
 	font-family: 'myraid';
 	color: #fff;
 	font-size: 2.29vw;
