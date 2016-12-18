@@ -1,0 +1,59 @@
+@font-face {
+  font-family: 'myraid';
+  src: url('../fonts/MyriadPro-Regular.eot');
+  src: url('../fonts/MyriadPro-Regular.woff2') format('woff2'),
+       url('../fonts/MyriadPro-Regular.woff') format('woff'),
+       url('../fonts/MyriadPro-Regular.ttf') format('truetype'),
+       url('../fonts/MyriadPro-Regular.svg#MyriadPro-Regular') format('svg'),
+       url('../fonts/MyriadPro-Regular.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+body{
+	font-family: 'myraid';
+}
+.my-header{
+	background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../img/mussoorie.jpg) no-repeat;
+	background-size: 100% 500px;
+	height: 500px;
+}
+.my-heading>h1{
+	color: #fff;
+	font-family: 'myraid';
+	border: 2px solid #000;
+	padding-top:15%;
+	font-weight: 900;	
+	letter-spacing: 4px;
+	font-variant: small-caps;
+	font-size: 72px;
+}
+.navbar{
+	background: #000;
+}
+.nav{
+	font-family: 'myraid';
+	font-size: 20px;
+}
+#history{
+	padding: 30px;
+}
+#history>p{
+	padding-top: 30px;
+	line-height: 1.6;
+	font-size: 20px;
+}
+#map{
+	position: relative;
+	z-index: -1;
+	background: #eee;
+	padding: 30px;
+}
+#map>h2{
+	padding: 30px 0px;
+}
+#exp{
+	padding: 30px;
+}
+.com{
+
+}

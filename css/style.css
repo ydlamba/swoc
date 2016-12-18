@@ -88,7 +88,7 @@ html,body{
 	position: absolute;
 	width: 16.85vw;
 	height: 7.37vh;
-	//background: green;
+	background: green;
 	font-family: 'myraid';
 	color: #fff;
 	font-size: 2.29vw;
@@ -155,5 +155,12 @@ html,body{
 	width: 99%;
 	height: 88.5vh;
 	margin: auto;
-	//border: 2px solid white;
+	border: 2px solid white;
+}
+#down_part>main{
+	background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.6)),url(../img/mussoorie.jpg) no-repeat;
+	background-size:100% 100%;
+}
+#down_part h1{
+	color: #fff; 
 }
