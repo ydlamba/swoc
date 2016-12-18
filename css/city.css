@@ -28,7 +28,6 @@ body{
 	font-size: 72px;
 }
 .navbar{
-	
 }
 .nav{
 	font-family: 'myraid';
@@ -54,6 +53,7 @@ body{
 #exp{
 	padding: 30px;
 }
+
 .userExp{
 	font-size: 30px;
 	padding: 60px;

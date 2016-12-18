@@ -10,6 +10,7 @@
 		<link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
 	</head>
+
 	<body data-spy="scroll" data-target="#my-navbar">
 		<nav class="navbar navbar-inverse navbar-fixed-top" id="my-navbar">
 			<div class="container">
@@ -100,8 +101,6 @@
 						</form>
 					</div>
 				</div>
-
-
 			</div>
 
 
@@ -116,19 +115,3 @@
 		<script type="text/javascript" src="../js/script.js"></script>
 	</body>
 </html>
-
-
-				<!--<form action="../php/connect.php" method="post">
-					<table>
-						<tr>
-							<td><label for="name">Name :</label></td>
-							<td><input type="text" name="name" id="name"></td>
-						</tr>
-						<tr>
-							<td><label for="comment">Comment :</label></td>
-							<td><textarea name="comment" id="comment" cols="30" rows="10"></textarea></td>
-						</tr>		
-					</table>
-					<input type="submit" name="submit">
-				</form>
-				-->
