@@ -154,7 +154,12 @@ $nav_d.click(goDown);
 
 
 
+$("a").bind("click",function(event){
+    $('html, body').animate({
+        scrollTop: $( $.attr(this, 'href') ).offset().top
+    }, 999);
 
+});
 
 
 

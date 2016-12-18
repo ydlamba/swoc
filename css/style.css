@@ -157,3 +157,10 @@ html,body{
 	margin: auto;
 	//border: 2px solid white;
 }
+#down_part>main{
+	background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.6)),url(../img/mussoorie.jpg) no-repeat;
+	background-size:100% 100%;
+}
+#down_part h1{
+	color: #fff; 
+}
