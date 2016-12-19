@@ -160,7 +160,13 @@ $("a").bind("click",function(event){
     }, 999);
 
 });
+/*	$(window).scroll(function(){
+		if($(window).scrollTop()>510){
+			$(".navbar").css("background-color","green");
+		}else{
+			$(".navbar").css("background-color","transparent");
+		}
 
+	});
 
-
-});
+});*/
