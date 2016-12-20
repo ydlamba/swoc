@@ -148,7 +148,7 @@ html,body{
 }
 
 #down_part{
-	background: red;
+	background: #de1b1b;
 }
 #down_part>main,#up_part>main,#left_part>main,#right_part>main{
 	position: relative;
@@ -158,9 +158,21 @@ html,body{
 	//border: 2px solid white;
 }
 #down_part>main{
-	background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.6)),url(../img/mussoorie.jpg) no-repeat;
-	background-size:100% 100%;
+
+	text-align: center;
+}
+#down_part ul{
+	list-style: none;
+}
+#down_part li{
+	padding: 20px;
+}
+#down_part a{
+	font-size: 24px;
+	color: #2b2b2b;
 }
 #down_part h1{
-	color: #fff; 
+	color: #2b2b2b;
+	text-align: center;
+	padding: 60px;
 }

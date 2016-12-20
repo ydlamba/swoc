@@ -168,5 +168,5 @@ $("a").bind("click",function(event){
 		}
 
 	});
-
-});*/
+*/
+});
