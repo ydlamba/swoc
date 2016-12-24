@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>The Travelling Guide - Mussoorie</title>
+		<title>The Travelling Guide - Dhanaulti</title>
 		<link rel="shortcut icon" type="image/png" href="../img/	favicon.png">
 		<link rel="stylesheet" href="../css/bootstrap.min.css">
 		<link rel="stylesheet" href="../css/city.css">
@@ -36,10 +36,10 @@
 		</nav>
 <!-- Navbar ends -->
 <!-- header starts -->
-			<header class="page-header my-header muss">
+			<header class="page-header my-header dhan">
 				<div class="container">
 					<div class="my-heading text-center">
-						<h1>Mussoorie Welcomes You<small><br>queen of hills</small></h1>
+						<h1>Welcome to Dhanaulti<small><br>an icy heaven</small></h1>
 					</div>
 				</div>
 			</header>
@@ -48,17 +48,22 @@
 				<div class="page-header">
 					<h2>General Information</h2>
 				</div>
-				<p>Tucked away in the Garhwal Hills , Mussoorie is one of the most impressive hill stations in the northern India. A number of modern bungalows, malls and sprawling gardens dot the landscape of the hill station, from one corner to the other. Hordes of tourists, both locals as well as foreign nationals, can be seen flocking to the hill station during summer months when the northern plains begin to burn with sultry heat.</p>
+				<p>The tinsel town of Dhanaulti is emerging as a popular winter destination because of its tranquil vistas and its proximity to Delhi and various other cities of Uttarakhand. This magical hill station is perched at an elevation of 2286 metres above sea level and offers panoramic views of the lofty Himalayas.</p>
 				<div class="row">
 					<div class="col-lg-6 gen_box">
-						<h4>When to visit</h4>No time is a bad time to arrive in Mussoorie. The weather at this strikingly expressive hill station remains pleasant throughout the year. The greenery in  Mussoorie can be seen at its blooming best between September and November. <i>The ideal time to make a tour to Mussoorie is either between April and June or between September and November.</i><h4>Accommodation</h4>Mussoorie has more than a hundred hotels to choose.<h4>What to wear</h4>In summer, light woolens are advisable while heavy woolens are a necessity during winter. The summer season extends from April to June. The winter season is from September to December.
+						<h4>When to visit</h4>
+						Dhanaulti is at its best in summers, from March to June and again in winters, from November to February, making these months the <b>best times to travel.</b>
+						<h4>Accommodation</h4>
+						Though there are not too many accommodation options in Dhanaulti, there is no dearth of accommodation places either. Apart from the hotels, the hill resort also boasts of a Tourist Bungalow and a Forest Rest.
+						<h4>What to wear</h4>
+						In summer, light woolens or cotton clothes are advisable while heavy woolens are a necessity during winter.
+						Dhanaulti serves as a base for trekking, hiking and camping and so the summer and the winter months are very suitable for these activities.  
 						<ul>
-							<li><b>Area:</b> 65 sq km</li>
-							<li><b>Altitude:</b> 2005.5 m</li>
-							<li><b>Temperature in Summer:</b> 7.2&#8451; - 31.2&#8451;</li>
-							<li><b>Temperature in Winter:</b> 1.1&#8451; - 7.2&#8451;</li>	
+							<li><b>Altitude:</b> 2286 m</li>
+							<li><b>Temperature in Summer:</b> 7.5&#8451; - 31&#8451;</li>
+							<li><b>Temperature in Winter:</b> -1&#8451; - 7&#8451;</li>	
 							<li><b>Languages:</b> English and Hindi</li>
-							<li><b>Best Time to Visit:</b> Mid-April or September - November</li>
+							<li><b>Best Time to Visit:</b> March - June or November - February</li>
 						</ul>
 					</div>
 					<div class="col-lg-6">
@@ -72,7 +77,7 @@
 				<div class="page-header">
 					<h2>History</h2>
 				</div>
-				<p>The Hill station of Mussoorie owes its credit to the British army officer named Captain Young. The beauty of the hill station impressed the military officer a lot and he finally made up his mind to reside at the place, in the year 1825. This is how the hill station of Mussoorie was founded. Colonel Everest chose to stay here and built a home in 1832. More and more British officers followed suit and by the year 1901, the population of the hill resort was 6,461. During summers, the population of Mussoorie swelled up to a total of 15,000 at that time.<br><br>During 1920s and 1930s, the Nehru family became the frequent visitors to Mussoorie. Nehru’s daughter Indira Gandhi also spent much of her time at Mussoorie. During their visit, the members of the Nehru family also visited the hill station of Dehradun, which was just closeby. The Tibetan Government in Exile was also established by Dalai Lama in Mussoorie first, after fleeing Chinese occupation of Tibet in April 1959. Today, around 5,000 Tibetans are residents of Mussoorie.</p>
+				<p>Before the independence of India in 1947, Dhanaulti was a part of the Tehri Garhwal region which was a princely state at that time. It was reigned by King Sudarshan Shah, who founded the dynasty and made Tehri his capital. This dynasty ruled the region from the year 1815 to 1949. People from this region actively participated in the freedom struggle. They were part of the Quit India Movement. The people also revolted against the rule of the king of Tehri Riyasat. After the revolt, they were successful in getting independence from the Maharaja and later, the district was merged with the state of Uttar Pradesh in India. After the bifurcation of Uttar Pradesh in the year 2000, the district of Tehri Garhwal became a part of the new state of Uttarakhand. Through the years, Dhanaulti has become a popular tourist destination in the country, especially in North India. As it is located close to the tourist destinations of Dehradun, Mussoorie and Chamba, the place is slowly gaining popularity.</p>
 			</div>
 <!-- history starts -->
 <!-- route starts -->
@@ -80,7 +85,7 @@
 				<div class="page-header">
 					<h2>How can you reach there</h2>
 				</div>
-				<iframe width="100%" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/directions?key=AIzaSyCjSaTeGdV7zdN-NHKHWtRIffN0mlTtkdM   &origin=IIT+Roorkee &destination=Mussoorie" allowfullscreen>
+				<iframe width="100%" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/directions?key=AIzaSyCjSaTeGdV7zdN-NHKHWtRIffN0mlTtkdM   &origin=IIT+Roorkee &destination=Dhanaulti" allowfullscreen>
 				</iframe>
 			</div>
 <!-- route ends -->
@@ -95,7 +100,6 @@
 					<div class="col-lg-7 exp_box">
 
 					<?php 
-
 					include "../php/connect.php";
 
 					if($_SERVER["REQUEST_METHOD"] == "POST"){
@@ -110,10 +114,9 @@
 
 						$queryI->execute(array($name,$exp,$city));
 
-					
 					}
-					
-					$sql_ouput = "SELECT * FROM expData WHERE City='Mussoorie' ORDER BY ID DESC";
+
+					$sql_ouput = "SELECT * FROM expData WHERE City='Dhanaulti' ORDER BY ID DESC ";
 					$queryO = $conn->query($sql_ouput);
 
 					$queryO->setFetchMode(PDO::FETCH_ASSOC);
@@ -133,7 +136,7 @@
 							<div class="form-group hide">
 								<label for="city" class="col-lg-2 control-label">City</label>
 								<div class="col-lg-10">
-									<input type="text" value="Mussoorie" name="city" id="city" class="form-control">
+									<input type="text" value="Dhanaulti" name="city" id="city" class="form-control">
 								</div>
 							</div>
 
@@ -145,10 +148,9 @@
 							</div>
 							<div class="form-group">
 								<div class="col-lg-10 col-lg-offset-2">
-									<button type="submit" class="btn btn-primary" id="form_submit">Submit</button>
+									<button type="submit" class="btn btn-primary">Submit</button>
 								</div>
-							</div>
-
+							</div>							
 						</form>
 					</div>
 				</div>

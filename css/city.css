@@ -12,9 +12,13 @@
 body{
 	font-family: 'myraid';
 }
-
-.my-header{
+.muss{
 	background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../img/mussoorie.jpg) no-repeat;
+}
+.dhan{
+	background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../img/dhanaulti.png) no-repeat;
+}
+.my-header{
 	background-size: 100% 600px;
 	background-attachment: fixed;
 	height: 500px;
