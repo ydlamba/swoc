@@ -10,8 +10,10 @@
 		<link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
 	</head>
-<!-- Navbar starts -->
 	<body data-spy="scroll" data-target="#my-navbar">
+<!-- Navbar starts -->
+		<button class="change"><i class="fa fa-bars fa-2x" aria-hidden="true"></i>
+</button>
 		<nav class="navbar navbar-inverse navbar-fixed-top" id="my-navbar">
 			<div class="container">
 				<div class="navbar-header">

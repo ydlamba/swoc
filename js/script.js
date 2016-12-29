@@ -1,24 +1,40 @@
 $(document).ready(function(){
 
 
-/*$(document).keydown(function(e) {
+$(document).keydown(function(e) {
     switch(e.which) {
-        case 37: openLeft();
+        case 37: if(position == 4){
+        	backToHome();
+        }else{
+        	goLeft();
+        }
         break;
 
-        case 38: openUp();
+        case 38: if(position == 8){
+        	backToHome();
+        }else{
+        	goUp();
+        }
         break;
 
-        case 39: openRight();
+        case 39: if (position == 6){
+        	backToHome();
+        }else{
+        	goRight();
+        }
         break;
 
-        case 40: openDown();
+        case 40: if(position == 2){
+        	backToHome();
+        }else{
+        	goDown();
+        }
         break;
 
         default: return; // exit this handler for other keys
     }
     e.preventDefault(); // prevent the default action (scroll / move caret)
-});*/
+});
 
 	
 
