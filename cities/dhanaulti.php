@@ -67,8 +67,8 @@
 						</ul>
 					</div>
 					<div class="col-lg-6">
-						<img src="../img/muss_right.jpg"><br><br>
-						<img src="../img/muss_right2.jpg" width="550px" height="345px">
+						<img src="../img/dhan_right.jpg" width="550px" height="345px"><br><br>
+						<img src="../img/dhan_right2.jpg" width="550px" height="345px">
 					</div>
 				</div>
 			</div>	

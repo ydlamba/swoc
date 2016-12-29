@@ -13,7 +13,4 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 
 	$queryI->execute(array($name,$exp,$city));
 
-	$lowcity = strtolower($city);
-
-
 ?>

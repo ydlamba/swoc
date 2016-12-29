@@ -18,20 +18,61 @@
 				<section class="container-fluid" id="left_part">
 					<main>
 						<header>
-							<h1>About us</h1>
+							<h1>About</h1>
 						</header>
+
+						<div class="container">
+							<div class="">
+								<p class="about_text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+
+							</div>
+						</div>
+
+
 						<div class="nav_v" id="up"><span class="nav_u">Portfolio</span></div>
 						<div class="nav_v" id="down"><span class="nav_d">Here We Go</span></div>
 						<div class="nav_h" id="left"><span class="nav_home">Home</span></div>
 						<div class="nav_h" id="right"><span class="nav_r">Contact</span></div>
 					</main>
 				</section>
-				<section class="container-fluid" id="behind_center"></section>
 				<section class="container-fluid" id="right_part">
 					<main>
 						<header>
 							<h1>Contact</h1>
 						</header>
+						<div class="container">
+							<div class="col-lg-5 address">
+								<h4>Meet us at:</h4>
+								<p>SDSLabs,<br>Hobbies Club,IIT Roorkee</p>
+							</div>
+							<div class="col-lg-6 col-lg-offset-1">
+								<form action="php/send.php" method="post" class="form-horizontal">
+									<div class="form-group">
+										<label for="name" class="col-lg-2 control-label">Name</label>
+										<div class="col-lg-10">
+											<input type="text" name="name" id="name" class="form-control" placeholder="Enter your Name">
+										</div>
+									</div>
+									<div class="form-group">
+										<label for="email" class="col-lg-2 control-label">Email</label>
+										<div class="col-lg-10">
+											<input type="email" name="email" id="email" class="form-control" placeholder="Enter your Email">
+										</div>
+									</div>
+									<div class="form-group">
+										<label for="msg" class="col-lg-2 control-label">Message</label>
+										<div class="col-lg-10">
+											<textarea class="form-control" id="msg" name="msg" cols="20" rows="10" placeholder="Your Suggestions"></textarea>
+										</div>
+									</div>
+									<div class="form-group">
+										<div class="col-lg-10 col-lg-offset-2">
+											<button type="submit" class="btn btn-default" id="form_submit">Submit</button>
+										</div>
+									</div>
+								</form>
+							</div>
+						</div>
 						<div class="nav_v" id="up"><span class="nav_u">Portfolio</span></div>
 						<div class="nav_v" id="down"><span class="nav_d">Here We Go</span></div>
 						<div class="nav_h" id="left"><span class="nav_l">About</span></div>
@@ -45,6 +86,9 @@
 						<header>
 							<h1>Check it out !</h1>
 						</header>
+						<div class="container">
+							<object class="sds_port"type="text/html" data="https://sdslabs.co"></object>
+						</div>
 						<div class="nav_v" id="up"><span class="nav_home">Home</span></div>
 						<div class="nav_v" id="down"><span class="nav_d">Here We Go</span></div>
 						<div class="nav_h" id="left"><span class="nav_l">About</span></div>
