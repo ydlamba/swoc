@@ -11,6 +11,7 @@
 		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
 	</head>
 <!-- Navbar starts -->
+	<button class="change"><i class="fa fa-bars fa-2x" aria-hidden="true"></i></button>
 	<body data-spy="scroll" data-target="#my-navbar">
 		<nav class="navbar navbar-inverse navbar-fixed-top" id="my-navbar">
 			<div class="container">
@@ -93,13 +94,26 @@
 			<div class="container" id="exp">
 				<div class="page-header">
 					<h2>IITR Junta Yelling their Experiences</h2>
+					<?php 
+					include "../php/connect.php";
+
+					$sql_rate = "SELECT AVG(Rate) AS avg_rate , COUNT(*) AS total FROM expData WHERE City='Dhanaulti'";
+					$query_rate = $conn->query($sql_rate);
+
+					$query_rate->setFetchMode(PDO::FETCH_ASSOC);
+					while($r1 = $query_rate->fetch()){
+						echo "<div class='avgRate'>Rating : <span class='red'>",$r1["avg_rate"],"</span> ( ",$r1["total"]," Votes)</div>";
+					}
+					?>
 				</div>
+
 
 				<div class="row">
 
 					<div class="col-lg-7 exp_box">
 
 					<?php 
+
 					include "../php/connect.php";
 
 					if($_SERVER["REQUEST_METHOD"] == "POST"){
@@ -108,20 +122,22 @@
 						$name = htmlspecialchars($_POST["name"]);
 						$exp = htmlspecialchars($_POST["exp"]);
 						$city = htmlspecialchars($_POST["city"]);
+						$rate = htmlspecialchars($_POST["rate"]);
 
-						$sql_input = "INSERT INTO expData (Name,Experience,City) VALUES (?,?,?)";
+						$sql_input = "INSERT INTO expData (Name,Experience,City,Rate) VALUES (?,?,?,?)";
 						$queryI = $conn->prepare($sql_input);
 
-						$queryI->execute(array($name,$exp,$city));
+						$queryI->execute(array($name,$exp,$city,$rate));
 
+					
 					}
-
-					$sql_ouput = "SELECT * FROM expData WHERE City='Dhanaulti' ORDER BY ID DESC ";
+					
+					$sql_ouput = "SELECT * FROM expData WHERE City='Dhanaulti' ORDER BY ID DESC";
 					$queryO = $conn->query($sql_ouput);
 
 					$queryO->setFetchMode(PDO::FETCH_ASSOC);
 					while($r = $queryO->fetch()){
-						echo "<div class='userExp'><span class='user_name'>",$r["Name"] ,":</span><br><hr><p class='user_text well'>",$r["Experience"],"</p></div>";
+						echo "<div class='userExp'><span class='user_name'>",$r["Name"] ,":</span><br><span class='rate'>Rating : ",$r["Rate"],"</span><br><hr><p class='user_text well'>",$r["Experience"],"</p></div>";
 					}
 					?>
 					</div>
@@ -147,10 +163,21 @@
 								</div>
 							</div>
 							<div class="form-group">
-								<div class="col-lg-10 col-lg-offset-2">
-									<button type="submit" class="btn btn-primary">Submit</button>
+								<label class="col-lg-2 control-label">Rate</label>
+								<div class="col-lg-10">
+									<input type="radio" name="rate" value="1" id="one">&nbsp; 1 &nbsp;
+									<input type="radio" name="rate" value="2" id="two">&nbsp; 2 &nbsp;
+									<input type="radio" name="rate" value="3" id="three">&nbsp; 3 &nbsp;
+									<input type="radio" name="rate" value="4" id="four">&nbsp; 4 &nbsp;				
+									<input type="radio" name="rate" value="5" id="five">&nbsp; 5 &nbsp;
 								</div>
-							</div>							
+							</div>
+							<div class="form-group">
+								<div class="col-lg-10 col-lg-offset-2">
+									<button type="submit" class="btn btn-primary" id="form_submit">Submit</button>
+								</div>
+							</div>
+
 						</form>
 					</div>
 				</div>

@@ -39,9 +39,7 @@ html,body{
 	height: 300vh;
 	margin: auto;
 }	
-.change{
-	position: fixed;
-}
+
 #center{
 	width: 100vw;
 	height: 100vh;	

@@ -51,6 +51,8 @@ $(document).keydown(function(e) {
 	var $nav_u = $(".nav_u");
 	var $nav_d = $(".nav_d");
 	var $nav_home = $(".nav_home");
+	var $change = $(".change");
+	var $up = $(".up");
 
 
 
@@ -177,6 +179,65 @@ $("a").bind("click",function(event){
 
 });
 
+$(".change").click(function(){
+
+	if($(".place").eq(0).text() == "Home"){
+		$(".place").eq(0).text("Mussoorie").fadeIn();
+		$(".place").eq(0).attr("href","mussoorie.php");
+		$(".place").animate({left: '-300px'},500);
+	}else{
+		$(".place").eq(0).text("Home").fadeIn();
+		$(".place").eq(0).attr("href","../index.html");
+		$(".place").animate({left: '0'},500);
+	}
+
+	if($(".place").eq(1).text() == "Info"){
+		$(".place").eq(1).text("Dhanaulti");
+		$(".place").eq(1).attr("href","dhanaulti.php");
+	}else{
+		$(".place").eq(1).text("Info");
+		$(".place").eq(1).attr("href","#gen");
+	}
+
+	if($(".place").eq(2).text() == "History"){
+		$(".place").eq(2).text("Place C");
+		$(".place").eq(2).attr("href","dhanaulti.php");
+	}else{
+		$(".place").eq(2).text("History");
+		$(".place").eq(2).attr("href","#history");
+	}
+
+	if($(".place").eq(3).text() == "Route"){
+		$(".place").eq(3).text("Place D");
+		$(".place").eq(3).attr("href","dhanaulti.php");
+	}else{
+		$(".place").eq(3).text("Route");
+		$(".place").eq(3).attr("href","#map");
+	}
+
+	if($(".place").eq(4).text() == "Experiences"){
+		$(".place").eq(4).text("Place E");
+		$(".place").eq(4).attr("href","dhanaulti.php");
+	}else{
+		$(".place").eq(4).text("Experiences");
+		$(".place").eq(4).attr("href","#exp");
+	}	
+});
+
+$up.click(function(){
+    $('html, body').animate({
+        scrollTop: 0
+    }, 1500);
+});
+
+$up.hide();
+$(window).scroll(function(){
+	if($(window).scrollTop()>510){
+		$up.slideDown(400);
+	}else{
+		$up.slideUp(400);
+	}
+});
 
 /*	$(window).scroll(function(){
 		if($(window).scrollTop()>510){

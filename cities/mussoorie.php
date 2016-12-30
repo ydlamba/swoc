@@ -9,11 +9,49 @@
 		<link rel="stylesheet" href="../css/city.css">
 		<link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+		<style type="text/css">
+			.change{
+				position: fixed;
+				z-index: 99999;
+				left: 10px;
+				top: 7px;
+				background: transparent;
+				color: #fff;
+				border: none;
+			}
+			.avgRate{
+				font-size: 24px;
+			}
+			.red{
+				color: red;
+			}
+			.rate{
+				font-size: 24px;
+				color: #339cff;
+
+			}
+			.place{
+				transition: all 0.5 ease;
+			}
+			.up{
+				color: #fff;
+				position: fixed;
+				bottom: 10px;
+				right: 10px;
+				background: #2b2b2b;
+				opacity: 0.3;
+				border: none;
+				transition: all 0.5 ease;
+			}
+			.up:hover{
+				opacity: 0.7;
+			}
+		</style>
 	</head>
 	<body data-spy="scroll" data-target="#my-navbar">
 <!-- Navbar starts -->
-		<button class="change"><i class="fa fa-bars fa-2x" aria-hidden="true"></i>
-</button>
+		<button class="up"><i class="fa fa-chevron-up fa-2x" aria-hidden="true"></i></button>
+		<button class="change"><i class="fa fa-bars fa-2x" aria-hidden="true"></i></button>
 		<nav class="navbar navbar-inverse navbar-fixed-top" id="my-navbar">
 			<div class="container">
 				<div class="navbar-header">
@@ -27,11 +65,11 @@
 				</div>
 				<div class="collapse navbar-collapse" id="navbar-collapse">
 					<ul class="nav navbar-nav navbar-right">
-						<li><a href="../index.html">Home</a></li>
-						<li><a href="#gen">Info</a></li>
-						<li><a href="#history">History</a></li>
-						<li><a href="#map">Route</a></li>
-						<li><a href="#exp">Experiences</a></li>
+						<li><a href="../index.html" class="place">Home</a></li>
+						<li><a href="#gen" class="place">Info</a></li>
+						<li><a href="#history" class="place">History</a></li>
+						<li><a href="#map" class="place">Route</a></li>
+						<li><a href="#exp" class="place">Experiences</a></li>
 					</ul>
 				</div>	
 			</div>
@@ -90,6 +128,17 @@
 			<div class="container" id="exp">
 				<div class="page-header">
 					<h2>IITR Junta Yelling their Experiences</h2>
+					<?php 
+					include "../php/connect.php";
+
+					$sql_rate = "SELECT AVG(Rate) AS avg_rate , COUNT(*) AS total FROM expData WHERE City='Mussoorie'";
+					$query_rate = $conn->query($sql_rate);
+
+					$query_rate->setFetchMode(PDO::FETCH_ASSOC);
+					while($r1 = $query_rate->fetch()){
+						echo "<div class='avgRate'>Rating : <span class='red'>",$r1["avg_rate"],"</span> ( ",$r1["total"]," Votes)</div>";
+					}
+					?>
 				</div>
 
 				<div class="row">
@@ -106,11 +155,12 @@
 						$name = htmlspecialchars($_POST["name"]);
 						$exp = htmlspecialchars($_POST["exp"]);
 						$city = htmlspecialchars($_POST["city"]);
+						$rate = htmlspecialchars($_POST["rate"]);
 
-						$sql_input = "INSERT INTO expData (Name,Experience,City) VALUES (?,?,?)";
+						$sql_input = "INSERT INTO expData (Name,Experience,City,Rate) VALUES (?,?,?,?)";
 						$queryI = $conn->prepare($sql_input);
 
-						$queryI->execute(array($name,$exp,$city));
+						$queryI->execute(array($name,$exp,$city,$rate));
 
 					
 					}
@@ -120,7 +170,7 @@
 
 					$queryO->setFetchMode(PDO::FETCH_ASSOC);
 					while($r = $queryO->fetch()){
-						echo "<div class='userExp'><span class='user_name'>",$r["Name"] ,":</span><br><hr><p class='user_text well'>",$r["Experience"],"</p></div>";
+						echo "<div class='userExp'><span class='user_name'>",$r["Name"] ,":</span><br><span class='rate'>Rating : ",$r["Rate"],"</span><br><hr><p class='user_text well'>",$r["Experience"],"</p></div>";
 					}
 					?>
 					</div>
@@ -143,6 +193,16 @@
 								<label for="exp" class="col-lg-2 control-label">Experience</label>
 								<div class="col-lg-10">
 									<textarea class="form-control" id="exp" name="exp" cols="20" rows="10" placeholder="What you want to say about this place?"></textarea>
+								</div>
+							</div>
+							<div class="form-group">
+								<label class="col-lg-2 control-label">Rate</label>
+								<div class="col-lg-10">
+									<input type="radio" name="rate" value="1" id="one">&nbsp; 1 &nbsp;
+									<input type="radio" name="rate" value="2" id="two">&nbsp; 2 &nbsp;
+									<input type="radio" name="rate" value="3" id="three">&nbsp; 3 &nbsp;
+									<input type="radio" name="rate" value="4" id="four">&nbsp; 4 &nbsp;				
+									<input type="radio" name="rate" value="5" id="five">&nbsp; 5 &nbsp;
 								</div>
 							</div>
 							<div class="form-group">

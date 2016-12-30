@@ -145,3 +145,26 @@ body{
 	padding:20px;
 	letter-spacing: 2px;
 }
+
+.change{
+	position: fixed;
+	z-index: 99999;
+	left: 10px;
+	top: 7px;
+	background: transparent;
+	color: #fff;
+	border: none;
+}
+.avgRate{
+	font-size: 24px;
+}
+.red{
+	color: red;
+}
+.rate{
+	font-size: 24px;
+	color: #339cff;
+}
+.place{
+	transition: all 0.5 ease;
+}
