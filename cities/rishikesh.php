@@ -38,10 +38,10 @@
 		</nav>
 <!-- Navbar ends -->
 <!-- header starts -->
-			<header class="page-header my-header muss">
+			<header class="page-header my-header rishi">
 				<div class="container">
 					<div class="my-heading text-center">
-						<h1>Mussoorie Welcomes You<small><br>queen of hills</small></h1>
+						<h1>Enjoy Rishikesh<small><br>World Capital of Yoga</small></h1>
 					</div>
 				</div>
 			</header>
@@ -50,22 +50,22 @@
 				<div class="page-header">
 					<h2>General Information</h2>
 				</div>
-				<p>Tucked away in the Garhwal Hills , Mussoorie is one of the most impressive hill stations in the northern India. A number of modern bungalows, malls and sprawling gardens dot the landscape of the hill station, from one corner to the other. Hordes of tourists, both locals as well as foreign nationals, can be seen flocking to the hill station during summer months when the northern plains begin to burn with sultry heat.</p>
+				<p>The holy city of Rishikesh, in the base of the Himalayas, holds deep cultural and spiritual significance for local Hindus. Sacred rivers and mountains set the scene for yoga and reflective hikes, and rafting here is an absolute must. The Beatles got in touch with their Eastern spiritual side here, writing several songs during a 1968 stint at a local ashram.</p>
 				<div class="row">
 					<div class="col-lg-6 gen_box">
-						<h4>When to visit</h4>No time is a bad time to arrive in Mussoorie. The weather at this strikingly expressive hill station remains pleasant throughout the year. The greenery in  Mussoorie can be seen at its blooming best between September and November. <i>The ideal time to make a tour to Mussoorie is either between April and June or between September and November.</i><h4>Accommodation</h4>Mussoorie has more than a hundred hotels to choose.<h4>What to wear</h4>In summer, light woolens are advisable while heavy woolens are a necessity during winter. The summer season extends from April to June. The winter season is from September to December.
+						<h4>When to visit</h4>Rishikesh is a picturesque destination affording enchanting views throughout the year.The climate here is continental type but its location in the foot hills gives it a pleasant weather throughout the year. One can visit Rishikesh <strong>ANY</strong> time of the year.<i>However right time to visit Rishikesh would be February, March,August-October.</i><h4>Accommodation</h4>There are lots of hotel to stay according to ones need.<h4>What to wear</h4>In summer, light woolens are advisable while woolens are a necessity during winter. The summer season extends from April to June. The winter season is from September to December.
 						<ul>
-							<li><b>Area:</b> 65 sq km</li>
-							<li><b>Altitude:</b> 2005.5 m</li>
-							<li><b>Temperature in Summer:</b> 7.2&#8451; - 31.2&#8451;</li>
-							<li><b>Temperature in Winter:</b> 1.1&#8451; - 7.2&#8451;</li>	
+							<li><b>Area:</b> 11.5 sq km</li>
+							<li><b>Altitude:</b> 372 m</li>
+							<li><b>Temperature in Summer:</b> 20&#8451; - 35&#8451;</li>
+							<li><b>Temperature in Winter:</b> 8&#8451; - 20&#8451;</li>	
 							<li><b>Languages:</b> English and Hindi</li>
-							<li><b>Best Time to Visit:</b> Mid-April or September - November</li>
+							<li><b>Best Time to Visit:</b> February, March,August-October</li>
 						</ul>
 					</div>
 					<div class="col-lg-6">
-						<img src="../img/muss_right.jpg"><br><br>
-						<img src="../img/muss_right2.jpg" width="550px" height="345px">
+						<img src="../img/rishi_right.jpg" width="550px" height="345px"><br><br>
+						<img src="../img/rishi_right2.jpg" width="550px" height="345px">
 					</div>
 				</div>
 			</div>	
@@ -74,7 +74,7 @@
 				<div class="page-header">
 					<h2>History</h2>
 				</div>
-				<p>The Hill station of Mussoorie owes its credit to the British army officer named Captain Young. The beauty of the hill station impressed the military officer a lot and he finally made up his mind to reside at the place, in the year 1825. This is how the hill station of Mussoorie was founded. Colonel Everest chose to stay here and built a home in 1832. More and more British officers followed suit and by the year 1901, the population of the hill resort was 6,461. During summers, the population of Mussoorie swelled up to a total of 15,000 at that time.<br><br>During 1920s and 1930s, the Nehru family became the frequent visitors to Mussoorie. Nehru’s daughter Indira Gandhi also spent much of her time at Mussoorie. During their visit, the members of the Nehru family also visited the hill station of Dehradun, which was just closeby. The Tibetan Government in Exile was also established by Dalai Lama in Mussoorie first, after fleeing Chinese occupation of Tibet in April 1959. Today, around 5,000 Tibetans are residents of Mussoorie.</p>
+				<p>Rishikesh has been a part of the legendary 'Kedarkhand' (the present day Garhwal).Legends state that Lord Rama did penance here for killing Ravana, the asura king of Lanka; and Lakshmana, his younger brother, crossed the river Ganges, at a point, where the present 'Lakshman Jhula'bridge stands today, using a jute rope bridge.The 'Kedarkhand' of Skanda Purana, also mentions the existence of Indrakund at this very point. The jute-rope bridge was replaced by iron-rope suspension bridge in 1889. After it was washed away in the 1924 floods, it was replaced by the present stronger bridge. Another similar suspension bridge Ram Jhula was built in 1986 at nearby Sivananda Nagar.<br><br>The sacred river Ganges flows through Rishikesh. Here the river leaves the Shivalik Hills in the Himalayas and flows into the plains of northern India. Several temples, ancient and new, are along the banks of the Ganges in Rishikesh. Shatrughna Mandir, Bharat Mandir, Lakshman Mandir are the ancient temples established by Adi Shankaracharya. Shatrughna Temple is near Ram Jhula and Lakshman Mandir is near Lakshman Jhula.</p>
 			</div>
 <!-- history starts -->
 <!-- route starts -->
@@ -82,7 +82,7 @@
 				<div class="page-header">
 					<h2>How can you reach there</h2>
 				</div>
-				<iframe width="100%" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/directions?key=AIzaSyCjSaTeGdV7zdN-NHKHWtRIffN0mlTtkdM   &origin=IIT+Roorkee &destination=Mussoorie" allowfullscreen>
+				<iframe width="100%" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/directions?key=AIzaSyCjSaTeGdV7zdN-NHKHWtRIffN0mlTtkdM   &origin=IIT+Roorkee &destination=Rishikesh" allowfullscreen>
 				</iframe>
 			</div>
 <!-- route ends -->
@@ -93,7 +93,7 @@
 					<?php 
 					include "../php/connect.php";
 
-					$sql_rate = "SELECT AVG(Rate) AS avg_rate , COUNT(*) AS total FROM expData WHERE City='Mussoorie'";
+					$sql_rate = "SELECT AVG(Rate) AS avg_rate , COUNT(*) AS total FROM expData WHERE City='Rishikesh'";
 					$query_rate = $conn->query($sql_rate);
 
 					$query_rate->setFetchMode(PDO::FETCH_ASSOC);
@@ -127,7 +127,7 @@
 					
 					}
 					
-					$sql_ouput = "SELECT * FROM expData WHERE City='Mussoorie' ORDER BY ID DESC";
+					$sql_ouput = "SELECT * FROM expData WHERE City='Rishikesh' ORDER BY ID DESC";
 					$queryO = $conn->query($sql_ouput);
 
 					$queryO->setFetchMode(PDO::FETCH_ASSOC);
@@ -147,7 +147,7 @@
 							<div class="form-group hide">
 								<label for="city" class="col-lg-2 control-label">City</label>
 								<div class="col-lg-10">
-									<input type="text" value="Mussoorie" name="city" id="city" class="form-control">
+									<input type="text" value="Rishikesh" name="city" id="city" class="form-control">
 								</div>
 							</div>
 

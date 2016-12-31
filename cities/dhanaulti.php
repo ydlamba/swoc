@@ -10,9 +10,10 @@
 		<link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
 	</head>
-<!-- Navbar starts -->
-	<button class="change"><i class="fa fa-bars fa-2x" aria-hidden="true"></i></button>
 	<body data-spy="scroll" data-target="#my-navbar">
+<!-- Navbar starts -->
+		<button class="up"><i class="fa fa-chevron-up fa-2x" aria-hidden="true"></i></button>
+		<button class="change"><i class="fa fa-bars fa-2x" aria-hidden="true"></i></button>
 		<nav class="navbar navbar-inverse navbar-fixed-top" id="my-navbar">
 			<div class="container">
 				<div class="navbar-header">
@@ -26,11 +27,11 @@
 				</div>
 				<div class="collapse navbar-collapse" id="navbar-collapse">
 					<ul class="nav navbar-nav navbar-right">
-						<li><a href="../index.html">Home</a></li>
-						<li><a href="#gen">Info</a></li>
-						<li><a href="#history">History</a></li>
-						<li><a href="#map">Route</a></li>
-						<li><a href="#exp">Experiences</a></li>
+						<li><a href="../index.html" class="place">Home</a></li>
+						<li><a href="#gen" class="place">Info</a></li>
+						<li><a href="#history" class="place">History</a></li>
+						<li><a href="#map" class="place">Route</a></li>
+						<li><a href="#exp" class="place">Experiences</a></li>
 					</ul>
 				</div>	
 			</div>

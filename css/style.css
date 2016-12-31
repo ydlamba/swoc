@@ -201,6 +201,7 @@ html,body{
 }
 .about_text{
 	font-size: 24px;
+	color:#666;
 	padding: 30px 60px 60px 60px;
 }
 .address{

@@ -18,6 +18,9 @@ body{
 .dhan{
 	background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../img/dhanaulti.png) no-repeat;
 }
+.rishi{
+	background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../img/rishikesh.jpg) no-repeat;
+}
 .my-header{
 	background-size: 100% 600px;
 	background-attachment: fixed;
@@ -167,4 +170,17 @@ body{
 }
 .place{
 	transition: all 0.5 ease;
+}
+.up{
+	color: #fff;
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+	background: #2b2b2b;
+	opacity: 0.3;
+	border: none;
+	transition: all 0.5 ease;
+}
+.up:hover{
+	opacity: 0.7;
 }

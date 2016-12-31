@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost
--- Generation Time: Dec 30, 2016 at 06:58 PM
+-- Generation Time: Dec 31, 2016 at 04:27 PM
 -- Server version: 5.5.53-0ubuntu0.14.04.1
 -- PHP Version: 5.5.9-1ubuntu4.20
 
@@ -33,7 +33,7 @@ CREATE TABLE IF NOT EXISTS `expData` (
   `City` varchar(255) NOT NULL,
   `Rate` int(11) NOT NULL,
   PRIMARY KEY (`ID`)
-) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=22 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=24 ;
 
 --
 -- Dumping data for table `expData`
@@ -47,7 +47,9 @@ INSERT INTO `expData` (`ID`, `Name`, `Experience`, `City`, `Rate`) VALUES
 (16, 'testing data 3 mussoorie', 'so pollution i dont like this place ', 'Mussoorie', 2),
 (17, 'testing data 4 mussoorie', 'cool i liked this place very much !!', 'Mussoorie', 5),
 (18, 'YDL', '101000101010100011 understand lol', 'Mussoorie', 3),
-(21, 'Naman', 'what a cool place is!!!!', 'Mussoorie', 4);
+(21, 'Naman', 'what a cool place is!!!!', 'Mussoorie', 4),
+(22, 'Testing data 1 Rishikesh', 'hmm its really nice holy place.!!', 'Rishikesh', 4),
+(23, 'testing data 2 rishi', 'i dont like this place too religious !!', 'Rishikesh', 1);
 
 -- --------------------------------------------------------
 

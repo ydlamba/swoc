@@ -200,8 +200,8 @@ $(".change").click(function(){
 	}
 
 	if($(".place").eq(2).text() == "History"){
-		$(".place").eq(2).text("Place C");
-		$(".place").eq(2).attr("href","dhanaulti.php");
+		$(".place").eq(2).text("Rishikesh");
+		$(".place").eq(2).attr("href","rishikesh.php");
 	}else{
 		$(".place").eq(2).text("History");
 		$(".place").eq(2).attr("href","#history");
