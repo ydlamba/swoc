@@ -46,6 +46,7 @@ $(document).keydown(function(e) {
 	var $center = $("#center");
 	var $c_main = $("#center>main");
 	var $c_header = $("#center header");
+	var $navbar = $(".navbar");
 	var $nav_r = $(".nav_r");
 	var $nav_l = $(".nav_l");
 	var $nav_u = $(".nav_u");
@@ -74,9 +75,9 @@ setTimeout(function(){
 		$c_main.css("transform","scale(1)");
 		setTimeout(function(){
 			$c_header.fadeIn(500);
-		},2000)
+		},1500)
 	},2000)
-},2000);
+},500);
 
 
 
@@ -180,15 +181,21 @@ $("a").bind("click",function(event){
 });
 
 $(".change").click(function(){
+	$(".fa-bars,.fa-times").toggleClass("fa-bars fa-times");
+	//$("body").children().css("position","relative");
+	//$("body").children().css("z-index","-1");
+	//$("body").css("background-color","rgba(0,0,0,0.9)")
 
 	if($(".place").eq(0).text() == "Home"){
 		$(".place").eq(0).text("Mussoorie").fadeIn();
 		$(".place").eq(0).attr("href","mussoorie.php");
-		$(".place").animate({left: '-300px'},500);
+		$(".navbar").animate({height: '200px'},500);
+		$(".place").animate({left: '-300px',top: '80px'},500);
 	}else{
 		$(".place").eq(0).text("Home").fadeIn();
 		$(".place").eq(0).attr("href","../index.html");
-		$(".place").animate({left: '0'},500);
+		$(".navbar").animate({height: '0'},800);
+		$(".place").animate({left: '0',top: '0'},500);
 	}
 
 	if($(".place").eq(1).text() == "Info"){
@@ -232,10 +239,12 @@ $up.click(function(){
 
 $up.hide();
 $(window).scroll(function(){
-	if($(window).scrollTop()>510){
+	if($(window).scrollTop()>50){
 		$up.slideDown(400);
+		$navbar.css("background-color","rgba(0,0,0,0.9)");
 	}else{
 		$up.slideUp(400);
+		$navbar.css("background-color","#000");
 	}
 });
 

@@ -23,7 +23,6 @@
 						<span class="icon-bar"></span>
 					</button>
 
-					<a href="https://sdslabs.co" target="_blank" class="navbar-brand">SDSLabs</a>
 				</div>
 				<div class="collapse navbar-collapse" id="navbar-collapse">
 					<ul class="nav navbar-nav navbar-right">
@@ -38,7 +37,7 @@
 		</nav>
 <!-- Navbar ends -->
 <!-- header starts -->
-			<header class="page-header my-header naini">
+			<header class="page-header my-header auli">
 				<div class="container">
 					<div class="my-heading text-center">
 						<h1>Auli<small><br>ski destination</small></h1>

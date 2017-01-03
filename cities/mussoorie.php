@@ -23,7 +23,6 @@
 						<span class="icon-bar"></span>
 					</button>
 
-					<a href="https://sdslabs.co" target="_blank" class="navbar-brand">SDSLabs</a>
 				</div>
 				<div class="collapse navbar-collapse" id="navbar-collapse">
 					<ul class="nav navbar-nav navbar-right">

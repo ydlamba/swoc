@@ -23,7 +23,6 @@
 						<span class="icon-bar"></span>
 					</button>
 
-					<a href="https://sdslabs.co" target="_blank" class="navbar-brand">SDSLabs</a>
 				</div>
 				<div class="collapse navbar-collapse" id="navbar-collapse">
 					<ul class="nav navbar-nav navbar-right">
@@ -38,7 +37,7 @@
 		</nav>
 <!-- Navbar ends -->
 <!-- header starts -->
-			<header class="page-header my-header muss">
+			<header class="page-header my-header naini">
 				<div class="container">
 					<div class="my-heading text-center">
 						<h1>First Time? Nainital<small><br>queen of lakes</small></h1>
