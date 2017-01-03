@@ -21,6 +21,12 @@ body{
 .rishi{
 	background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../img/rishikesh.jpg) no-repeat;
 }
+.naini{
+	background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../img/nainital.jpg) no-repeat;
+}
+.auli{
+	background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../img/auli.jpg) no-repeat;
+}
 .my-header{
 	background-size: 100% 600px;
 	background-attachment: fixed;

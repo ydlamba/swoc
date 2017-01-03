@@ -39,7 +39,7 @@ $(document).keydown(function(e) {
 	
 
 
-	var slideSpeed = 1000;
+	var slideSpeed = 800;
 	var position = 5; /*position by numkeypad '5 means center'*/ 
 	var $horizontal = $(".horizontal");
 	var $vertical = $(".vertical");
@@ -208,16 +208,16 @@ $(".change").click(function(){
 	}
 
 	if($(".place").eq(3).text() == "Route"){
-		$(".place").eq(3).text("Place D");
-		$(".place").eq(3).attr("href","dhanaulti.php");
+		$(".place").eq(3).text("Nainital");
+		$(".place").eq(3).attr("href","nainital.php");
 	}else{
 		$(".place").eq(3).text("Route");
 		$(".place").eq(3).attr("href","#map");
 	}
 
 	if($(".place").eq(4).text() == "Experiences"){
-		$(".place").eq(4).text("Place E");
-		$(".place").eq(4).attr("href","dhanaulti.php");
+		$(".place").eq(4).text("Auli");
+		$(".place").eq(4).attr("href","auli.php");
 	}else{
 		$(".place").eq(4).text("Experiences");
 		$(".place").eq(4).attr("href","#exp");
