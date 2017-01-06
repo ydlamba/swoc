@@ -161,11 +161,11 @@ html,body{
 	list-style: none;
 }
 #down_part li{
-	padding: 20px;
+	padding: 1.53vw;
 }
 #down_part a{
 	padding: 0 10px;
-	font-size: 24px;
+	font-size: 1.84vw;
 	color: #333;
 	text-decoration: none;
 	transition: all 0.5s ease;
@@ -182,10 +182,10 @@ html,body{
 	padding: 60px;
 }
 #left_part>main{
-	padding-top: 50px;
+	padding-top: 3.83vw;
 }
 #left_part h1{
-	padding:60px 0 0 10%;
+	padding:4.59vw 0 0 10%;
 	font-variant: small-caps;
 	color: #777;
 	font-weight: 600;
@@ -200,9 +200,9 @@ html,body{
 	top: -6.8vw;
 }
 .about_text{
-	font-size: 24px;
+	font-size: 1.84vw;
 	color:#666;
-	padding: 30px 60px 60px 60px;
+	padding: 2.3vw 4.59vw 4.59vw 4.59vw;
 }
 .address{
 	font-size: 22px;

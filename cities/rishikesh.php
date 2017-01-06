@@ -69,11 +69,13 @@
 				</div>
 			</div>	
 <!-- history starts -->
-			<div class="container" id="history">
-				<div class="page-header">
-					<h2>History</h2>
+			<div class="container-fluid" id="history">
+				<div class="container">
+					<div class="page-header">
+						<h2>History</h2>
+					</div>
+					<p class="historyText">Rishikesh has been a part of the legendary 'Kedarkhand' (the present day Garhwal).Legends state that Lord Rama did penance here for killing Ravana, the asura king of Lanka; and Lakshmana, his younger brother, crossed the river Ganges, at a point, where the present 'Lakshman Jhula'bridge stands today, using a jute rope bridge.The 'Kedarkhand' of Skanda Purana, also mentions the existence of Indrakund at this very point. The jute-rope bridge was replaced by iron-rope suspension bridge in 1889. After it was washed away in the 1924 floods, it was replaced by the present stronger bridge. Another similar suspension bridge Ram Jhula was built in 1986 at nearby Sivananda Nagar.<br><br>The sacred river Ganges flows through Rishikesh. Here the river leaves the Shivalik Hills in the Himalayas and flows into the plains of northern India. Several temples, ancient and new, are along the banks of the Ganges in Rishikesh. Shatrughna Mandir, Bharat Mandir, Lakshman Mandir are the ancient temples established by Adi Shankaracharya. Shatrughna Temple is near Ram Jhula and Lakshman Mandir is near Lakshman Jhula.</p>
 				</div>
-				<p>Rishikesh has been a part of the legendary 'Kedarkhand' (the present day Garhwal).Legends state that Lord Rama did penance here for killing Ravana, the asura king of Lanka; and Lakshmana, his younger brother, crossed the river Ganges, at a point, where the present 'Lakshman Jhula'bridge stands today, using a jute rope bridge.The 'Kedarkhand' of Skanda Purana, also mentions the existence of Indrakund at this very point. The jute-rope bridge was replaced by iron-rope suspension bridge in 1889. After it was washed away in the 1924 floods, it was replaced by the present stronger bridge. Another similar suspension bridge Ram Jhula was built in 1986 at nearby Sivananda Nagar.<br><br>The sacred river Ganges flows through Rishikesh. Here the river leaves the Shivalik Hills in the Himalayas and flows into the plains of northern India. Several temples, ancient and new, are along the banks of the Ganges in Rishikesh. Shatrughna Mandir, Bharat Mandir, Lakshman Mandir are the ancient temples established by Adi Shankaracharya. Shatrughna Temple is near Ram Jhula and Lakshman Mandir is near Lakshman Jhula.</p>
 			</div>
 <!-- history starts -->
 <!-- route starts -->

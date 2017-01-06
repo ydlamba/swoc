@@ -68,11 +68,13 @@
 				</div>
 			</div>	
 <!-- history starts -->
-			<div class="container" id="history">
-				<div class="page-header">
-					<h2>History</h2>
+			<div class="container-fluid" id="history">
+				<div class="container">
+					<div class="page-header">
+						<h2>History</h2>
+					</div>
+					<p class="historyText">In the 8th century AD, the great Guru Adi Shankaracharya is said to have tread on these fields. The temple built by him at Joshimath still exists. For hundreds of years, the colorful semi-nomadic tribes of the Bhotiyas, of the Mongolian stock, traversed the trails at Auli, locally called Thatauli. Their longhaired yaks, laden with an assortment of goods, assisted them in conducting a flourishing trade with nearby Tibet. <br><br>Before Auli was developed as a ski resort, its slopes were the training ground for men of valor and courage-the ski-equipped men of the Indo-Tibetan Border Police Force. Among the awesome, legendary peaks ranged round Auli, the 23,490-feet-high Trishul (literal meaning, the strident of Lord Shiva) was the scene of a unique expedition in 1958. The mountaineers took four days to climb the peak and only 90 minutes to ski down to the base camp.</p>
 				</div>
-				<p>In the 8th century AD, the great Guru Adi Shankaracharya is said to have tread on these fields. The temple built by him at Joshimath still exists. For hundreds of years, the colorful semi-nomadic tribes of the Bhotiyas, of the Mongolian stock, traversed the trails at Auli, locally called Thatauli. Their longhaired yaks, laden with an assortment of goods, assisted them in conducting a flourishing trade with nearby Tibet. <br><br>Before Auli was developed as a ski resort, its slopes were the training ground for men of valor and courage-the ski-equipped men of the Indo-Tibetan Border Police Force. Among the awesome, legendary peaks ranged round Auli, the 23,490-feet-high Trishul (literal meaning, the strident of Lord Shiva) was the scene of a unique expedition in 1958. The mountaineers took four days to climb the peak and only 90 minutes to ski down to the base camp.</p>
 			</div>
 <!-- history starts -->
 <!-- route starts -->

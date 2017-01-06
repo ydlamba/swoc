@@ -74,11 +74,13 @@
 				</div>
 			</div>	
 <!-- history starts -->
-			<div class="container" id="history">
-				<div class="page-header">
-					<h2>History</h2>
+			<div class="container-fluid" id="history">
+				<div class="container" id="history">
+					<div class="page-header">
+						<h2>History</h2>
+					</div>
+					<p class="historyText">Before the independence of India in 1947, Dhanaulti was a part of the Tehri Garhwal region which was a princely state at that time. It was reigned by King Sudarshan Shah, who founded the dynasty and made Tehri his capital. This dynasty ruled the region from the year 1815 to 1949. People from this region actively participated in the freedom struggle. They were part of the Quit India Movement. The people also revolted against the rule of the king of Tehri Riyasat. After the revolt, they were successful in getting independence from the Maharaja and later, the district was merged with the state of Uttar Pradesh in India. After the bifurcation of Uttar Pradesh in the year 2000, the district of Tehri Garhwal became a part of the new state of Uttarakhand. Through the years, Dhanaulti has become a popular tourist destination in the country, especially in North India. As it is located close to the tourist destinations of Dehradun, Mussoorie and Chamba, the place is slowly gaining popularity.</p>
 				</div>
-				<p>Before the independence of India in 1947, Dhanaulti was a part of the Tehri Garhwal region which was a princely state at that time. It was reigned by King Sudarshan Shah, who founded the dynasty and made Tehri his capital. This dynasty ruled the region from the year 1815 to 1949. People from this region actively participated in the freedom struggle. They were part of the Quit India Movement. The people also revolted against the rule of the king of Tehri Riyasat. After the revolt, they were successful in getting independence from the Maharaja and later, the district was merged with the state of Uttar Pradesh in India. After the bifurcation of Uttar Pradesh in the year 2000, the district of Tehri Garhwal became a part of the new state of Uttarakhand. Through the years, Dhanaulti has become a popular tourist destination in the country, especially in North India. As it is located close to the tourist destinations of Dehradun, Mussoorie and Chamba, the place is slowly gaining popularity.</p>
 			</div>
 <!-- history starts -->
 <!-- route starts -->

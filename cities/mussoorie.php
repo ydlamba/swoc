@@ -69,11 +69,13 @@
 				</div>
 			</div>	
 <!-- history starts -->
-			<div class="container" id="history">
-				<div class="page-header">
-					<h2>History</h2>
+			<div class="container-fluid" id="history">
+				<div class="container">
+					<div class="page-header">
+						<h2>History</h2>
+					</div>
+					<p class="historyText">The Hill station of Mussoorie owes its credit to the British army officer named Captain Young. The beauty of the hill station impressed the military officer a lot and he finally made up his mind to reside at the place, in the year 1825. This is how the hill station of Mussoorie was founded. Colonel Everest chose to stay here and built a home in 1832. More and more British officers followed suit and by the year 1901, the population of the hill resort was 6,461. During summers, the population of Mussoorie swelled up to a total of 15,000 at that time.<br><br>During 1920s and 1930s, the Nehru family became the frequent visitors to Mussoorie. Nehru’s daughter Indira Gandhi also spent much of her time at Mussoorie. During their visit, the members of the Nehru family also visited the hill station of Dehradun, which was just closeby. The Tibetan Government in Exile was also established by Dalai Lama in Mussoorie first, after fleeing Chinese occupation of Tibet in April 1959. Today, around 5,000 Tibetans are residents of Mussoorie.</p>
 				</div>
-				<p>The Hill station of Mussoorie owes its credit to the British army officer named Captain Young. The beauty of the hill station impressed the military officer a lot and he finally made up his mind to reside at the place, in the year 1825. This is how the hill station of Mussoorie was founded. Colonel Everest chose to stay here and built a home in 1832. More and more British officers followed suit and by the year 1901, the population of the hill resort was 6,461. During summers, the population of Mussoorie swelled up to a total of 15,000 at that time.<br><br>During 1920s and 1930s, the Nehru family became the frequent visitors to Mussoorie. Nehru’s daughter Indira Gandhi also spent much of her time at Mussoorie. During their visit, the members of the Nehru family also visited the hill station of Dehradun, which was just closeby. The Tibetan Government in Exile was also established by Dalai Lama in Mussoorie first, after fleeing Chinese occupation of Tibet in April 1959. Today, around 5,000 Tibetans are residents of Mussoorie.</p>
 			</div>
 <!-- history starts -->
 <!-- route starts -->

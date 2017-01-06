@@ -69,11 +69,13 @@
 				</div>
 			</div>	
 <!-- history starts -->
-			<div class="container" id="history">
-				<div class="page-header">
-					<h2>History</h2>
+			<div class="container-fluid" id="history">
+				<div class="container">
+					<div class="page-header">
+						<h2>History</h2>
+					</div>
+					<p class="historyText">Nainital is referred to in the ‘Manas Khand’ of the ‘Skanda Purana’ as the Tri-Rishi-Sarovar,the lake of the three sages ,Atri,Pulastya and Pulaha who were reputed to have arrived here on a penitential piligrimage, and, finding no water to quench their thirst dug a hole and siphoned water into it from Mansarovar the sacred lake in Tibet. <br><br>The Second important mythological reference to Nainital is as one of 64 ‘Shakti Peeths’.These centres were created wherever parts of charred body of Sati fell ,when Lord Shiva was carrying around her corpse in grief .It is said that the left eye (Nain) of Sati fell here and this gave rise to patron deity of town Nainital . It is said that the lake is formed in the emerald eye shape . Naina Devi temple is located at the northern end of the lake . Thus name of Nainital derivated from Naina and the tal (Lake).</p>
 				</div>
-				<p>Nainital is referred to in the ‘Manas Khand’ of the ‘Skanda Purana’ as the Tri-Rishi-Sarovar,the lake of the three sages ,Atri,Pulastya and Pulaha who were reputed to have arrived here on a penitential piligrimage, and, finding no water to quench their thirst dug a hole and siphoned water into it from Mansarovar the sacred lake in Tibet. <br><br>The Second important mythological reference to Nainital is as one of 64 ‘Shakti Peeths’.These centres were created wherever parts of charred body of Sati fell ,when Lord Shiva was carrying around her corpse in grief .It is said that the left eye (Nain) of Sati fell here and this gave rise to patron deity of town Nainital . It is said that the lake is formed in the emerald eye shape . Naina Devi temple is located at the northern end of the lake . Thus name of Nainital derivated from Naina and the tal (Lake).</p>
 			</div>
 <!-- history starts -->
 <!-- route starts -->
