@@ -69,7 +69,7 @@
 				</div>
 			</div>	
 <!-- history starts -->
-			<div class="container-fluid" id="history">
+			<div class="container" id="history">
 				<div class="page-header">
 					<h2>History</h2>
 				</div>
@@ -77,7 +77,7 @@
 			</div>
 <!-- history starts -->
 <!-- route starts -->
-			<div class="container-fluid" id="map">
+			<div class="container" id="map">
 				<div class="page-header">
 					<h2>How can you reach there</h2>
 				</div>
@@ -90,27 +90,9 @@
 				<div class="page-header">
 					<h2>IITR Junta Yelling their Experiences</h2>
 					<?php 
-					include "../php/connect.php";
+						include "../php/connect.php";
 
-					$sql_rate = "SELECT AVG(Rate) AS avg_rate , COUNT(*) AS total FROM expData WHERE City='Mussoorie'";
-					$query_rate = $conn->query($sql_rate);
-
-					$query_rate->setFetchMode(PDO::FETCH_ASSOC);
-					while($r1 = $query_rate->fetch()){
-						echo "<div class='avgRate'>Rating : <span class='red'>",$r1["avg_rate"],"</span> ( ",$r1["total"]," Votes)</div>";
-					}
-					?>
-				</div>
-
-				<div class="row">
-
-					<div class="col-lg-7 exp_box">
-
-					<?php 
-
-					include "../php/connect.php";
-
-					if($_SERVER["REQUEST_METHOD"] == "POST"){
+						if($_SERVER["REQUEST_METHOD"] == "POST"){
 
 
 						$name = htmlspecialchars($_POST["name"]);
@@ -122,10 +104,27 @@
 						$queryI = $conn->prepare($sql_input);
 
 						$queryI->execute(array($name,$exp,$city,$rate));
-
 					
 					}
 					
+					
+
+					$sql_rate = "SELECT AVG(Rate) AS avg_rate , COUNT(*) AS total FROM expData WHERE City='Mussoorie'";
+					$query_rate = $conn->query($sql_rate);
+
+					$query_rate->setFetchMode(PDO::FETCH_ASSOC);
+					while($r1 = $query_rate->fetch()){
+						echo "<div class='avgRate'>Rating : <span class='red'>",$r1["avg_rate"],"</span> ( ",$r1["total"]," Votes)</div>";
+					}
+				echo'	
+				</div>
+				
+				<div class="row">
+
+					<div class="col-lg-7 exp_box">
+
+					' ;
+
 					$sql_ouput = "SELECT * FROM expData WHERE City='Mussoorie' ORDER BY ID DESC";
 					$queryO = $conn->query($sql_ouput);
 
