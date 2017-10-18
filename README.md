@@ -1,10 +1,14 @@
 # The Travelling Guide
-This is a web application to guide travellers.I made this in SDS Winter of Codes
+This is my project during SDS Winter of Codes (SWoC).
 
-**Places Added:**
+### Aim
 
--Mussoorie
--Dhanaulti
--Rishikesh
--Nainital
--Auli
+The aim of this project is to help people in planning their trip.It contains a lot of experiences of others with best route to reach the destination.
+
+### Places Added
+
+* Mussoorie
+* Dhanaulti
+* Rishikesh
+* Nainital
+* Auli
