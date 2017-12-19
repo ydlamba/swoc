@@ -18,8 +18,4 @@ echo "<script>
 	  window.location.href='../index.html';
 	  </script>";
 
-/*echo "alert('Thank you. We will reply you soon!');";
-header("Location: ../index.html");
-die();
-*/
 ?>
